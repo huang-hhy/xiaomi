@@ -1,0 +1,252 @@
+.site-footer {
+	width: 100%;
+	background-color: white;
+}
+
+.footer-service {
+	text-align: center;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.footer-service li {
+	float: left;
+	width: 240px;
+	line-height: 25px;
+	margin: 30px 0;
+	border-left: 1px solid #747474;
+}
+
+.footer-service li:first-child {
+	border-left: none;
+}
+
+.footer-service li a {
+	display: block;
+	color: #5d5d5d;
+}
+
+.footer-service li a:hover {
+	color: #FF6700;
+}
+
+.footer-service li a img {
+	width: 24px;
+	vertical-align: top;
+	margin-right: 5px;
+}
+
+.footer-service li a:hover .static {
+	display: none;
+}
+
+.footer-service li a:hover .hover {
+	display: inline;
+}
+
+
+.footer-links {
+	width: 100%;
+	padding: 50px 0;
+}
+
+.links-list {
+	float: left;
+	font-size: 12px;
+}
+
+.links-list>ul>li {
+	float: left;
+	display: inline-block;
+	width: 160px;
+}
+
+.links-list>ul>li>ul {
+	display: block;
+}
+
+.links-list>ul>li>ul>li {
+	display: block;
+}
+
+.links-list>ul>li>ul>li>a {
+	color: #6b6b6b;
+	line-height: 28px;
+}
+
+.links-list>ul>li>ul>li>a:hover {
+	color: #FF6700;
+}
+
+.links-list-list-frist {
+	font-size: 14px;
+	line-height: 60px !important;
+	color: #000000 !important;
+	cursor: default;
+}
+
+
+.links-info {
+	float: left;
+	border-left: 1px solid #d9d9d9;
+	padding-left: 50px;
+	text-align: center;
+}
+
+.links-info>h2 {
+	color: #FF6700;
+	font-size: 20px;
+}
+
+.links-info>p {
+	color: #a2a2a2;
+	font-size: 12px;
+	line-height: 30px;
+}
+
+.links-info>a {
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	border: 1px solid #FF6700;
+	color: #FF6700;
+}
+
+.links-info>a>i {
+	background-image: url(../image/对话框.png);
+	background-size: 100% 80%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.links-info>a:hover {
+	background-color: #FF6700;
+	color: white;
+}
+
+.links-info>a:hover>i {
+	background-image: url(../image/对话框-hover.png);
+}
+
+.links-info>h5 {
+	line-height: 30px;
+	font-size: 12px;
+	font-weight: 100;
+	color: #000000;
+}
+
+.links-info .weibo,
+.links-info .weixin {
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.links-info .weibo {
+	background-image: url(../image/weibo.png);
+}
+
+.links-info .weixin {
+	background-image: url(../image/weixin.png);
+}
+
+.links-info .weibo:hover {
+	background-image: url(../image/weibo-hover.png);
+}
+
+.links-info .weixin:hover {
+	background-image: url(../image/weixin-hover.png);
+}
+
+
+.site-info {
+	padding: 30px 0;
+}
+
+.footer-logo {
+	float: left;
+	width: 60px;
+	height: 60px;
+	line-height: 100px;
+	text-align: center;
+	background-color: #FF6700;
+}
+
+.footer-logo img {
+	width: 85%;
+	height: 85%;
+}
+
+.info-text, .info-links {
+	font-size: 12px;
+	margin-left: 70px;
+}
+
+.sites {
+	display: block;
+}
+
+.sites a {
+	color: #797979;
+	padding-left: 5px;
+	border-left: 1px solid #797979;
+}
+
+.sites a:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+
+.sites a:hover {
+	color: #FF6700;
+}
+
+.sites-info a, .sites-info span {
+	color: #B0B0B0;
+}
+
+.sites-info a:hover{
+	color: #FF6700;
+}
+
+.site-info .slogan {
+	clear: both;
+	margin: 30px auto 0;
+	width: 100%;
+	height: 19px;
+	background: url(../image/slogan2020.png) no-repeat center 0;
+	display: block;
+	text-align: left;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+
+.info-links a {
+	display: inline-block;
+	margin-top: 10px;
+	width: 83px;
+	height: 32px;
+}
+
+.info-links a:last-child {
+	width: 105px;
+	height: 40px;
+}
+
+.info-links a img {
+	width: 100%;
+	height: 100%;
+}
+
+.v-logo img:last-child {
+	display: none;
+}
+
+.v-logo:hover img:first-child {
+	display: none;
+}
+
+.v-logo:hover img:last-child {
+	display: block;
+}

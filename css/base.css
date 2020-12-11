@@ -1,0 +1,257 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	color: #B0B0B0;
+}
+
+body {
+	background-color: #F5F5F5;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.container {
+	width: 1226px;
+	margin: 0 auto;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.topbar-a {
+	display: inline-block;
+	position: relative;
+}
+
+.topbar-a:hover {
+	color: white;
+}
+
+.sep {
+	margin: 0 .3em;
+	color: #424242;
+}
+
+.slide {
+	overflow: hidden;
+	height: 0px;
+	transition: height .3s;
+	transition-delay: .1s;
+	transform: translateY(100%);
+	z-index: 1;
+}
+
+.triangle {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%));
+	width: 0;
+	height: 0;
+	border-left: 7px solid transparent;
+	border-right: 7px solid transparent;
+	border-bottom: 7px solid white;
+}
+
+.displayNone {
+	display: none;
+}
+
+.first {
+	margin-left: 0 !important;
+}
+
+.box-hd {
+	position: relative;
+	height: 58px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.title {
+	margin: 0;
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #5b5b5b;
+	font-weight: 400;
+}
+
+.static {
+	display: inline-block;
+}
+
+.hover {
+	display: none;
+}
+
+.span1 {
+	width: 234px;
+	float: left;
+}
+
+.span2 {
+	width: 978px;
+	float: left;
+}
+
+
+
+.span3 {
+	width: 978px;
+	float: left;
+	margin-left: 14px;
+	font-size: 14px;
+}
+
+.span3>li {
+	display: inline-block;
+	text-align: center;
+	background: #fff;
+	height: 300px;
+	margin-right: 14px;
+}
+
+.span3>li>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.span3>li>a>img {
+	width: 160px;
+	height: 160px;
+}
+
+.span3>li>a>p {
+	display: block;
+	overflow: hidden;
+	width: 220px;
+	margin: 0 auto;
+}
+
+.span3>li>a>.name {
+	line-height: 20px;
+	height: 20px;
+	color: #000000;
+}
+
+.span3>li>a .info {
+	line-height: 20px;
+	height: 20px;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.span3>li>a>p>span {
+	margin: 0 10px;
+	color: #FF6700;
+}
+
+.span3-last {
+	margin-right: 0 !important;
+	margin-bottom: 14px;
+}
+
+.span3>li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* 指向浮动特效 */
+.span4:hover {
+	transition: all .5s;
+	transform: translate3d(0, -3px, 0);
+	box-shadow: #d8d8d8 0 0 15px 0;
+}
+
+.span5 {
+	width: 234px;
+	height: 300px;
+}
+
+.span5:first-child {
+	margin-bottom: 14px;
+}
+
+.span5>a>img {
+	width: 100%;
+	height: 100%;
+}
+
+.span6 {
+	position: relative;
+	width: 214px;
+	height: 93px;
+	padding-top: 50px;
+	background-color: white;
+	text-align: left;
+	padding-left: 20px;
+}
+
+.span6>p {
+	color: #000000;
+	display: block;
+	width: 100px;
+}
+
+.span6>.price {
+	color: #FF6700;
+}
+
+.span6>img {
+	position: absolute;
+	display: block;
+	right: 20px;
+	top: 32px;
+	width: 80px;
+	height: 80px;
+}
+
+.span6:first-child {
+	margin-bottom: 14px;
+}
+
+.span7 {
+	background: none !important;
+}
+
+.Browse-more img {
+	width: 50px;
+	height: 50px;
+	right: 40px;
+	top: 42px;
+}
+
+.Browse-more h2 {
+	font-weight: 500;
+	color: #000000;
+}
+
+.Browse-more p {
+	color: #787878;
+	font-size: 12px;
+}

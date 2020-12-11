@@ -1,0 +1,56 @@
+.home-tool-bar {
+	position: fixed;
+	right: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	font-size: 14px;
+	z-index: 999 !important;
+}
+
+.home-tool-bar a:last-child {
+	border-top: none !important;
+	margin-top: 20px !important;
+	visibility: hidden;
+}
+
+.home-tool-bar a:first-child {
+	border-top: none !important;
+}
+
+.home-tool-bar a {
+	display: block;
+	width: 84px;
+	height: 92px;
+	border-top: 1px solid #eaeaea;
+	background-color: white;
+}
+
+.home-tool-bar a:hover .static {
+	display: none;
+}
+
+.home-tool-bar a:hover .hover {
+	display: inline-block;
+}
+
+.home-tool-bar a:hover span {
+	transition: all .3s;
+	color: #FF6700;
+}
+
+.home-tool-bar a:first {
+	border-top: none;
+}
+
+.home-tool-bar a img {
+	width: 30px;
+	height: 30px;
+	padding-top: 20px;
+}
+
+.home-tool-bar a span {
+	display: block;
+	line-height: 30px !important;
+	color: #757575;
+}

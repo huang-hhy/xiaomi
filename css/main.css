@@ -1,0 +1,288 @@
+.home-flash-sale .box-bd {
+	font-size: 14px;
+}
+
+.home-flash-sale .box-bd>.span1 {
+	border-top: 1px solid #e53935;
+	height: 300px;
+	padding-top: 39px;
+	background: #f1eded;
+	text-align: center;
+}
+
+.home-flash-sale .box-bd>.span1 img {
+	margin: 25px auto;
+	width: 60x;
+	height: 60px;
+}
+
+.home-flash-sale .box-bd>.span1 h3 {
+	font-size: 21px;
+	color: #ef3a3b;
+	padding-top: 15px;
+}
+
+.home-flash-sale .box-bd>.span1 p {
+	color: rgba(0, 0, 0, .54);
+	font-size: 15px;
+}
+
+.home-flash-sale .box-bd>.span1 h2 {
+	width: 168px;
+	margin: 28px auto 0;
+}
+
+.home-flash-sale .box-bd>.span1 h2 span {
+	width: 46px;
+	height: 46px;
+	background: #605751;
+	color: #fff;
+	font-size: 24px;
+	line-height: 46px;
+	float: left;
+}
+
+.home-flash-sale .box-bd>.span1 h2 i {
+	width: 15px;
+	float: left;
+	height: 46px;
+	line-height: 46px;
+	color: #605751;
+	font-size: 28px;
+	font-style: normal;
+}
+
+#flashSaleList {
+	margin-left: 14px;
+	position: relative;
+}
+
+.sale-list-ul {
+	display: block;
+	width: 100%;
+	height: 339px;
+	overflow: hidden;
+	position: relative;
+}
+
+.sale-list-ul>li {
+	display: inline-block;
+	text-align: center;
+	background: #fff;
+	width: 234px;
+	height: 300px;
+	padding-top: 39px;
+	border-top: 1px solid #28dcd6;
+	position: absolute;
+	transition: all 1s;
+}
+
+.sale-list-ul>li:last-child {
+	margin-right: 0;
+}
+
+.sale-list-ul>li>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.sale-list-ul>li>a>img {
+	width: 160px;
+	height: 160px;
+}
+
+.sale-list-ul>li>a>p {
+	display: block;
+	overflow: hidden;
+	width: 220px;
+	margin: 0 auto;
+}
+
+.sale-list-ul>li>a .name {
+	line-height: 20px;
+	height: 20px;
+	color: #000000;
+}
+
+.sale-list-ul>li>a .info {
+	line-height: 20px;
+	height: 20px;
+	font-size: 12px;
+	margin-bottom: 15px;
+}
+
+.sale-list-ul>li>a>p>span {
+	margin: 0 10px;
+	color: #FF6700;
+}
+
+.clicklr {
+	position: absolute;
+	top: -30px;
+	right: 0;
+}
+
+.leftButton, .rightButton {
+	float: left;
+	width: 30px;
+	height: 20px;
+	line-height: 25px;
+	text-align: center;
+	border: 1px solid #cbcbcb;
+	cursor: pointer;
+}
+
+.clicklr>.select {
+	cursor: default;
+}
+
+.clicklr>.select img {
+	opacity: .2;
+}
+
+.clicklr img {
+	width: 15px;
+	height: 15px;
+	opacity: .8;
+}
+
+
+.home-banner-box {
+	width: 100%;
+	margin: 30px 0;
+}
+
+.home-banner-box a {
+	display: block;
+	width: 100%;
+}
+
+.home-banner-box a img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.home-brick-box .box-hd {
+	position: relative;
+}
+
+.brick-box-ul .view-all {
+	display: block;
+	font-weight: 500;
+	line-height: 58px;
+	color: #000000;
+}
+
+.brick-box-ul .view-all i {
+	background-image: url(../image/icon-right-arrow.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.brick-box-ul .view-all:hover{
+	transition: color .1s;
+	color: #FF6700;
+}
+
+.brick-box-ul .view-all:hover i {
+	background-image: url(../image/icon-right-arrow-hover.png);
+}
+
+.home-brick-box .box-bd>.span1>a>img {
+	width: 100%;
+	height: 614px;
+}
+
+.brick-tab-colum-select {
+	transition: color .2s;
+	color: #FF6700 !important;
+	border-bottom: 2px solid #FF6700;
+}
+
+.brick-box-ul {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.brick-box-ul .tab-column {
+	display: inline-block;
+	float: left;
+	font-weight: 500;
+	line-height: 58px;
+}
+
+.brick-box-ul .tab-column a {
+	display: inline-block;
+	margin-left: 30px;
+	color: #000000;
+	line-height: 30px;
+	cursor: pointer;
+}
+
+.video-list {
+	margin-bottom: 50px;
+}
+
+.video-list>ul {
+	display: block;
+	width: 100%;
+}
+
+.video-list>ul>li:first-child {
+	margin-left: 0;
+}
+
+.video-list>ul>li {
+	float: left;
+	width: 296px;
+	height: 285px;
+	margin-left: 14px;
+	background-color: white;
+	text-align: center;
+}
+
+.video-list>ul>li>a>div {
+	position: relative;
+	width: 296px;
+	height: 180px;
+}
+
+.video-list>ul>li>a>div>img {
+	width: 100%;
+	width: 100%;
+}
+
+.video-list>ul>li>a>div>i {
+	position: absolute;
+	bottom: 10px;
+	left: 30px;
+	display: block;
+	width: 35px;
+	height: 20px;
+	border: 1px solid white;
+	border-radius: 15px;
+	background-image: url(../image/video-play.png);
+	background-size: 30% 60%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.video-list>ul>li>a>div:hover>i {
+	background-color: #FF6700 !important;
+	border: 1px solid #FF6700;
+}
+
+.video-list>ul>li>a>h5 {
+	line-height: 50px;
+	font-size: 16px;
+	color: #000000;
+}
+
+.video-list>ul>li>a>p {
+	font-size: 14px;
+}

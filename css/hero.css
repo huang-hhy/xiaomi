@@ -1,0 +1,169 @@
+#home-hero {
+	background-color: white;
+}
+
+#swiper-wrapper {
+	width: 1226px;
+	height: 460px;
+	box-shadow: #b5b5b5 0px 0px 2px 0px;
+	position: relative;
+}
+
+.swiper-img {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.swiper-img li {
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	opacity: 0;
+	transition: all 1s;
+}
+
+.swiper-img>.select {
+	opacity: 1;
+}
+
+.swiper-img li a img {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-index {
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+}
+
+.swiper-index li {
+	display: inline-block;
+	width: 6px;
+	height: 6px;
+	background-color: rgba(0, 0, 0, .4);
+	border: 2px solid #fff;
+	border-color: hsla(0, 0%, 100%, .3);
+	border-radius: 10px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+.swiper-index .select {
+	background-color: rgba(255, 255, 255, .4);
+	border: 2px solid hsla(0, 0%, 100%, .3);
+}
+
+.left-arrow,
+.right-arrow {
+	width: 41px;
+	height: 69px;
+	text-align: center;
+	line-height: 90px;
+	cursor: pointer;
+}
+
+.left-arrow img,
+.right-arrow img {
+	width: 75%;
+	height: 50%;
+	opacity: .3;
+}
+
+.left-arrow:hover,
+.right-arrow:hover {
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.left-arrow:hover img,
+.right-arrow:hover img {
+	opacity: .7;
+}
+
+.left-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 234px;
+}
+
+.right-arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 0;
+}
+
+
+.home-hero-sub {
+	margin-top: 20px;
+	padding-bottom: 30px;
+	font-size: 12px;
+}
+
+.home-hero-sub .span1 ul {
+	display: inline-block;
+	background-color: #5f5750;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.home-hero-sub .span1 li {
+	float: left;
+	display: inline-block;
+	width: 70px;
+	height: 80px;
+	padding: 0 3px;
+	opacity: .5;
+	transition: all .3s;
+}
+
+.home-hero-sub .span1 li:hover {
+	opacity: 1;
+}
+
+.home-hero-sub .span1 li a {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+.home-hero-sub .span1 li a img {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+}
+
+.home-hero-sub .span1 li a span {
+	display: block;
+	line-height: 20px;
+	color: white;
+}
+
+
+.home-hero-sub .span2 {
+	margin-left: 14px;
+}
+
+.home-hero-sub .span2 ul {
+	display: inline-block;
+}
+
+.home-hero-sub .span2 ul li {
+	float: left;
+	display: inline-block;
+	margin-left: 14px;
+}
+
+.home-hero-sub .span2 a {
+	display: inline-block;
+	width: 316px;
+	height: 170px;
+}
+
+.home-hero-sub .span2 ul li a img {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
